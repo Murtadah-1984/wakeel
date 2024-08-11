@@ -55,9 +55,20 @@ class User extends \TCG\Voyager\Models\User implements IMustVerifyMobile
         'mobile_last_attempt_date' => 'datetime'
     ];
     
-    public function tenants()
+    /**
+     * Get the children for the user.
+     */
+    public function children()
     {
-        return $this->hasMany(Tenant::class);
+        return $this->hasMany(User::class, 'parent_id');
+    }
+
+    /**
+     * Get the parent for the user.
+     */
+    public function parent()
+    {
+        return $this->hasOne(User::class, 'id', 'parent_id');
     }
 
 

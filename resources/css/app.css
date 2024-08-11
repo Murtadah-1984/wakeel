@@ -1,0 +1,18 @@
+/*Home Page styles */
+@import 'home/animate.css';
+@import 'home/main.css';
+@import 'home/bootstrap-5.0.0-beta2.min.css';
+@import 'home/glightbox.min.css';
+@import 'home/LineIcons.2.0.css';
+@import 'home/tiny-slider.css';
+
+/*dashboard styles */
+@import 'dashboard/main.css';
+@import 'dashboard/normalize.css';
+@import 'dashboard/all.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

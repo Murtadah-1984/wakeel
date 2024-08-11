@@ -1,0 +1,172 @@
+[05-Aug-2024 10:02:36 UTC] PHP Fatal error:  Cannot declare class CreateSubscriptionTable, because the name is already in use in /home/arajeeznet/wakeel.arajeez.net/wakeel/database/migrations/2024_08_05_094059_create_subscriptions_table.php on line 7
+[08-Aug-2024 00:20:42 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\TelegramBotController, because the name is already in use in /home/arajeeznet/wakeel.arajeez.net/wakeel/app/Http/Controllers/TelegramClientController.php on line 8
+[08-Aug-2024 00:24:09 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
+[08-Aug-2024 00:40:04 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
+[10-Aug-2024 02:32:58 UTC] PHP Fatal error:  Uncaught Exception: Cannot get return value of a generator that hasn't returned in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php:115
+Stack trace:
+#0 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->getReturn()
+#1 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#2 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve(NULL)
+#3 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/byte-stream/lib/ResourceInputStream.php(198): Amp\Deferred->resolve()
+#4 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/byte-stream/lib/ResourceInputStream.php(259): Amp\ByteStream\ResourceInputStream->free()
+#5 [internal function]: Amp\ByteStream\ResourceInputStream->__destruct()
+#6 {main}
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php on line 115
+[10-Aug-2024 02:33:58 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
+[10-Aug-2024 02:34:23 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
+[10-Aug-2024 14:47:45 UTC] PHP Fatal error:  Uncaught Exception: Cannot get return value of a generator that hasn't returned in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php:115
+Stack trace:
+#0 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->getReturn()
+#1 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#2 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve(NULL)
+#3 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/byte-stream/lib/ResourceInputStream.php(198): Amp\Deferred->resolve()
+#4 /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/amphp/byte-stream/lib/ResourceInputStream.php(259): Amp\ByteStream\ResourceInputStream->free()
+#5 [internal function]: Amp\ByteStream\ResourceInputStream->__destruct()
+#6 {main}
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php on line 115
+[10-Aug-2024 14:48:45 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
+[10-Aug-2024 14:58:13 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:309
+
+TL Trace:
+
+initAsynchronously()
+initAsynchronously()
+
+Previous TL trace:
+
+API.php(313):       	connectToMadelineProto({},true,false)
+API.php(194):       	connectToMadelineProto({})
+internalInitAPI({})
+Coroutine.php(110): 	send([0,null])
+Placeholder.php(149):	danog\MadelineProto\{closure}(null,[0,null])
+Deferred.php(53):   	resolve([0,null])
+Tools.php(413):     	resolve([0,null])
+NativeDriver.php(142):	danog\MadelineProto\{closure}("ap",null)
+Driver.php(138):    	dispatch(true)
+Driver.php(72):     	tick()
+Loop.php(95):       	run()
+Tools.php(284):     	run({})
+AsyncConstruct.php(47):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")
+entry.php(105):     	init()
+entry.php(134):     	{closure}()
+  thrown in /home/arajeeznet/wakeel.arajeez.net/wakeel/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 309
